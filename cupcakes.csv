@@ -1,0 +1,7 @@
+size,name,price,flavor,frosting,sprinkles,filling
+mini,Chocolate,1.99,Chocolate,White,"['Chocolate', 'Oreo']",
+large,White Chocolate,3.99,White Chocolate,Vanilla,"['White Chocolate', 'Nuts']",Vanilla
+regular,Strawberry,2.99,Strawberry,Vanilla,[],Strawberry Jam
+regular,Cookies and Cream,2.99,Cookies and Cream,Chocolate,['Cookie crumbles'],Chocolate
+large,Black Cocoa,3.99,Dark Chocolate,Chocolate,['Cocoa'],Dark chocolate
+mini,Vanilla,1.99,Vanilla,Vanilla,['Pink hearts'],

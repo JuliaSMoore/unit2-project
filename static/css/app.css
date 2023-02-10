@@ -1,0 +1,56 @@
+body {
+    background-color: rgb(240, 201, 240);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.cupcake-container {
+    background-color: rgb(169, 141, 196);
+    width: 70%;
+    margin: auto;
+    margin-top: 50px;
+    padding: 30px;
+    border-radius: 30px;
+    box-shadow: 5px 5px 15px rgb(146, 136, 150);
+}
+
+.cupcake {
+    background-color: rgb(244, 215, 250);
+    margin: auto;
+    margin-top: 20px;
+    width: 90%;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.cupcake:first-child {
+    margin-top: none;
+}
+
+button {
+    background-color: rgb(196, 196, 242);
+    padding: 10px;
+    border-radius: 15px;
+    border: none;
+}
+
+.cupcake-name {
+    font-size: 130%;
+    color:rgb(70, 53, 86);
+    margin-bottom: 10px;
+}
+
+a:link {
+    text-decoration: none;
+    color:rgb(70, 53, 86)
+}
+
+.details-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.details {
+    display: flex;
+    flex-direction: column;
+}

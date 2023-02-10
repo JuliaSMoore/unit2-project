@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../static/css/app.css">
+    <title>Cupcake Store</title>
+</head>
+<body>
+    <div class="cupcake-container">
+        <div class="cupcake">
+            <div class="cupcake-name">{{ cupcake["name"] }}</div>
+            <div class="details">
+                <span>Size: {{cupcake["size"]}}</span>
+                <span>Flavor: {{ cupcake["flavor"] }}</span>
+                <span>Frosting: {{ cupcake["frosting"] }}</span>
+                <span>Filling: 
+                    {%if cupcake["filling"]%}
+                    {{cupcake["filling"]}}
+                    {%else%}
+                    None
+                    {%endif%}
+                </span>
+                <span>Sprinkles: {{cupcake["sprinkles"]}}
+                </span>
+                <span><b>Price: ${{ cupcake["price"] }}</b></span>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
